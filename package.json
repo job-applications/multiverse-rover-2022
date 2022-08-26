@@ -1,0 +1,22 @@
+{
+  "name": "multiverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "zx ./index.mjs",
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  },
+  "dependencies": {
+    "zx": "^7.0.8"
+  },
+  "volta": {
+    "node": "16.17.0"
+  }
+}
